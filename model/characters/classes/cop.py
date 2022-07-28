@@ -13,4 +13,4 @@ class Cop(CharData):
         if lang.upper() == 'PT-BR':
             return ('policia')
         else:
-            raise Exception("Por favor informar uma linguagem valida dentre as opções(pt-br)")
+            raise Exception("Por favor informar uma linguagem valida dentre as opções(pt-br...)")
