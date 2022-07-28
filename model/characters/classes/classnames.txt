@@ -1,0 +1,19 @@
+def get_classname(self):
+        return self.classname
+
+    def get_classname_translated(self, classname, lang):
+        if lang.upper() == 'PT-BR':
+            if classname.upper() == 'NIGHT_ELF':
+                return ('elfo negro')
+        
+            if classname.upper() == 'SOLDIER':
+                return ('soldado')
+        
+            if classname.upper() == 'ELF':
+                return ('elfo')
+
+            if classname.upper() == 'KNIGHT':
+                return ('guerreiro')
+            
+            if classname.upper() == 'COP':
+                return ('policia')
